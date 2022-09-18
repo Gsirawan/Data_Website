@@ -1,0 +1,11 @@
+/* Image style */
+img {
+    width: 100%;
+  }
+
+
+/* Html for the header image */
+<div id="header.img">
+    <img src="images/logo.png" />
+</div>   
+
