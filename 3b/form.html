@@ -5,11 +5,59 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="https://utbweb.its.ltu.se/~ghaals-1/3a/style-3a.css">
-		<title>FAKTA OM LULEÅ TEKNISKA UNIVERSITET</title>
+		<title>Support Formulär</title>
 	</head>
 	<body>
 		
+        <h1>Support Formulär</h1>
+        <h4>Här kan du skicka ett ärende till vår supportavdelning</h4>
 
+        <form action="https://staff.www.ltu.se/~susfah/VT19/parse_form.php">
+            <label for="fname">Ditt namn:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="Telefon">Telefon:</label><br>
+            <input type="number" id="Telefon" name="telefon"><br><br>
+
+            <label for="status">Prioritet:</label><br>
+            <select id="status" name="status">
+                <option value="1">Låg</option>
+                <option value="2">Normal</option>
+                <option value="3">Hög</option>
+            </select><br><br>
+
+            <label for="city">Tilldela till ort:</label><br>
+            <input type="radio" id="city" name="city" value="gbg">
+            <label for="html">Göteborg</label><br>
+            <input type="radio" id="city" name="city" value="sthlm">
+            <label for="html">Stockholm</label><br>
+            <input type="radio" id="city" name="city" value="ume">
+            <label for="html">Umeå</label><br>
+            <input type="radio" id="city" name="city" value="lule">
+            <label for="html">Luleå</label><br><br>
+
+            <label for="Category">Kategorin:</label><br>
+            <select id="Category" name="Category">
+                <option value="fakt">Fakturering</option>
+                <option value="net">Internet</option>
+                <option value="tel">Telefoni</option>
+                <option value="epost">E-post</option>
+            </select><br><br>
+
+            
+            <label for="title">Rubrik:</label><br>
+            <input type="text" id="title" name="title"><br>
+
+            <label for="message">Beskrivning:</label><br>
+            <textarea name="message" rows="10" cols="30">...</textarea><br><br>
+
+            <input type="submit" value="skicka">
+            <input type="reset" value="Reset">
+        </form>
         
+
 	</body>
 </html>
+
+
+
+
