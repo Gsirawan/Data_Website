@@ -18,41 +18,16 @@ table.tabell2 {
   background-color: #ffcc99;
 }
 
-p {
+tfoot {
   color: green;
 }
 
-/* Navigator Style (H) */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #EEEEEE;
-}
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #2D2D2D;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+a:hover {
   background-color: #D0B987;
 }
 
 .active {
-  background-color: #D0B987;
-}
-
-
-/* Image style */
-img {
-  width: 100%;
+  background-color: #948a76;
 }
